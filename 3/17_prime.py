@@ -9,7 +9,7 @@ def prime_check(n):
     else:
         print 'Not prime number'
 
-a = random.randint(1, 10000)
+a = random.randint(1, 100)
 
 print a
 prime_check(a)
