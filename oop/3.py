@@ -27,3 +27,5 @@ a = BankAccount()
 b = MinimumBalanceAccount(500)
 print a.deposit(3000), b.deposit(4000)
 print a.withdraw(2900), b.withdraw(3990)
+
+print issubclass(MinimumBalanceAccount, BankAccount)
